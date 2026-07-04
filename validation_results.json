@@ -1,0 +1,2547 @@
+{
+  "expected": {
+    "inventory": {
+      "Ikeja Station|PMS": 321.93999999999437,
+      "Ikeja Station|AGO": 275.95999999999975,
+      "Ikeja Station|DPK": 2259.1000000000004,
+      "Lekki Station|PMS": 574.5700000000002,
+      "Lekki Station|AGO": 97.81999999999886,
+      "Lekki Station|DPK": 1914.47,
+      "Apapa Station|PMS": 648.9300000000021,
+      "Apapa Station|AGO": 13.509999999997433,
+      "Apapa Station|DPK": 2074.570000000001
+    },
+    "totalRevenue": 150307882.03000012,
+    "fuelSold": {
+      "PMS": 73454.56,
+      "AGO": 35612.71,
+      "DPK": 8751.860000000002
+    },
+    "stationRevenue": {
+      "Ikeja Station": 49673470.14999999,
+      "Lekki Station": 51455080.83,
+      "Apapa Station": 49179331.049999975
+    },
+    "salesCount": 221,
+    "deliveriesCount": 9,
+    "rejectedOversell": 49
+  },
+  "actual": {
+    "inventory": [
+      {
+        "id": 9,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity": "2074.57",
+        "minimum_level": "5000.00",
+        "last_updated": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": 8,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity": "13.51",
+        "minimum_level": "5000.00",
+        "last_updated": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": 7,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity": "648.93",
+        "minimum_level": "5000.00",
+        "last_updated": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": 6,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity": "1914.47",
+        "minimum_level": "5000.00",
+        "last_updated": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": 5,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity": "97.82",
+        "minimum_level": "5000.00",
+        "last_updated": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": 4,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity": "574.57",
+        "minimum_level": "5000.00",
+        "last_updated": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity": "2259.10",
+        "minimum_level": "5000.00",
+        "last_updated": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity": "275.96",
+        "minimum_level": "5000.00",
+        "last_updated": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": 1,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity": "321.94",
+        "minimum_level": "5000.00",
+        "last_updated": "2026-06-01T00:00:00.000Z"
+      }
+    ],
+    "sales": [
+      {
+        "id": 221,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "105.39",
+        "price_per_litre": "1005.88",
+        "total_amount": "106009.69",
+        "sales_date": "2026-06-30T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 220,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "113.34",
+        "price_per_litre": "1016.21",
+        "total_amount": "115177.24",
+        "sales_date": "2026-06-30T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 219,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "59.14",
+        "price_per_litre": "1147.79",
+        "total_amount": "67880.30",
+        "sales_date": "2026-06-30T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 218,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "125.11",
+        "price_per_litre": "1005.88",
+        "total_amount": "125845.65",
+        "sales_date": "2026-06-29T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 217,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "102.12",
+        "price_per_litre": "1016.21",
+        "total_amount": "103775.37",
+        "sales_date": "2026-06-29T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 216,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "327.51",
+        "price_per_litre": "1423.12",
+        "total_amount": "466086.03",
+        "sales_date": "2026-06-29T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 215,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "56.33",
+        "price_per_litre": "1147.79",
+        "total_amount": "64655.01",
+        "sales_date": "2026-06-29T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 214,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "135.57",
+        "price_per_litre": "1005.88",
+        "total_amount": "136367.15",
+        "sales_date": "2026-06-28T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 213,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "126.15",
+        "price_per_litre": "1016.21",
+        "total_amount": "128194.89",
+        "sales_date": "2026-06-28T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 212,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "125.89",
+        "price_per_litre": "1147.79",
+        "total_amount": "144495.28",
+        "sales_date": "2026-06-28T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 211,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "82.89",
+        "price_per_litre": "1005.88",
+        "total_amount": "83377.39",
+        "sales_date": "2026-06-27T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 210,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "131.98",
+        "price_per_litre": "1016.21",
+        "total_amount": "134119.40",
+        "sales_date": "2026-06-27T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 209,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "128.25",
+        "price_per_litre": "1147.79",
+        "total_amount": "147204.07",
+        "sales_date": "2026-06-27T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 208,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "123.05",
+        "price_per_litre": "1005.88",
+        "total_amount": "123773.53",
+        "sales_date": "2026-06-26T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 207,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "424.82",
+        "price_per_litre": "1401.55",
+        "total_amount": "595406.47",
+        "sales_date": "2026-06-26T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 206,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "128.42",
+        "price_per_litre": "1016.21",
+        "total_amount": "130501.69",
+        "sales_date": "2026-06-26T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 205,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "51.42",
+        "price_per_litre": "1147.79",
+        "total_amount": "59019.36",
+        "sales_date": "2026-06-26T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 204,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "133.47",
+        "price_per_litre": "1005.88",
+        "total_amount": "134254.80",
+        "sales_date": "2026-06-25T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 203,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "117.22",
+        "price_per_litre": "1016.21",
+        "total_amount": "119120.14",
+        "sales_date": "2026-06-25T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 202,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "394.56",
+        "price_per_litre": "1423.12",
+        "total_amount": "561506.23",
+        "sales_date": "2026-06-25T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 201,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "103.07",
+        "price_per_litre": "1147.79",
+        "total_amount": "118302.72",
+        "sales_date": "2026-06-25T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 200,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "51.88",
+        "price_per_litre": "1005.88",
+        "total_amount": "52185.05",
+        "sales_date": "2026-06-24T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 199,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "136.89",
+        "price_per_litre": "1016.21",
+        "total_amount": "139108.99",
+        "sales_date": "2026-06-24T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 198,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "387.88",
+        "price_per_litre": "1423.12",
+        "total_amount": "551999.79",
+        "sales_date": "2026-06-24T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 197,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "76.05",
+        "price_per_litre": "1147.79",
+        "total_amount": "87289.43",
+        "sales_date": "2026-06-24T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 196,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "82.81",
+        "price_per_litre": "1005.88",
+        "total_amount": "83296.92",
+        "sales_date": "2026-06-23T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 195,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "73.62",
+        "price_per_litre": "1016.21",
+        "total_amount": "74813.38",
+        "sales_date": "2026-06-23T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 194,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "400.47",
+        "price_per_litre": "1423.12",
+        "total_amount": "569916.87",
+        "sales_date": "2026-06-23T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 193,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "52.67",
+        "price_per_litre": "1147.79",
+        "total_amount": "60454.10",
+        "sales_date": "2026-06-23T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 192,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "381.46",
+        "price_per_litre": "1482.76",
+        "total_amount": "565613.63",
+        "sales_date": "2026-06-23T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 191,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "115.32",
+        "price_per_litre": "1005.88",
+        "total_amount": "115998.08",
+        "sales_date": "2026-06-22T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 190,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "577.16",
+        "price_per_litre": "1401.55",
+        "total_amount": "808918.60",
+        "sales_date": "2026-06-22T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 189,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "138.78",
+        "price_per_litre": "1016.21",
+        "total_amount": "141029.62",
+        "sales_date": "2026-06-22T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 188,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "589.48",
+        "price_per_litre": "1423.12",
+        "total_amount": "838900.78",
+        "sales_date": "2026-06-22T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 187,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "54.67",
+        "price_per_litre": "1147.79",
+        "total_amount": "62749.68",
+        "sales_date": "2026-06-22T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 186,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "603.58",
+        "price_per_litre": "1482.76",
+        "total_amount": "894964.28",
+        "sales_date": "2026-06-22T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 185,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "71.52",
+        "price_per_litre": "1005.88",
+        "total_amount": "71940.54",
+        "sales_date": "2026-06-21T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 184,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "669.43",
+        "price_per_litre": "1401.55",
+        "total_amount": "938239.62",
+        "sales_date": "2026-06-21T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 183,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "66.22",
+        "price_per_litre": "1016.21",
+        "total_amount": "67293.43",
+        "sales_date": "2026-06-21T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 182,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "457.58",
+        "price_per_litre": "1423.12",
+        "total_amount": "651191.25",
+        "sales_date": "2026-06-21T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 181,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "57.00",
+        "price_per_litre": "1147.79",
+        "total_amount": "65424.03",
+        "sales_date": "2026-06-21T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 180,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "300.16",
+        "price_per_litre": "1482.76",
+        "total_amount": "445065.24",
+        "sales_date": "2026-06-21T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 179,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "68.42",
+        "price_per_litre": "1005.88",
+        "total_amount": "68822.31",
+        "sales_date": "2026-06-20T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 178,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "620.84",
+        "price_per_litre": "1401.55",
+        "total_amount": "870138.30",
+        "sales_date": "2026-06-20T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 177,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "937.73",
+        "price_per_litre": "1208.86",
+        "total_amount": "1133584.29",
+        "sales_date": "2026-06-20T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 176,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "120.19",
+        "price_per_litre": "1016.21",
+        "total_amount": "122138.28",
+        "sales_date": "2026-06-20T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 175,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "395.61",
+        "price_per_litre": "1423.12",
+        "total_amount": "563000.50",
+        "sales_date": "2026-06-20T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 174,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1442.83",
+        "price_per_litre": "1284.78",
+        "total_amount": "1853719.13",
+        "sales_date": "2026-06-20T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 173,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "140.36",
+        "price_per_litre": "1147.79",
+        "total_amount": "161103.80",
+        "sales_date": "2026-06-20T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 172,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "642.66",
+        "price_per_litre": "1482.76",
+        "total_amount": "952910.54",
+        "sales_date": "2026-06-20T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 171,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "98.49",
+        "price_per_litre": "1005.88",
+        "total_amount": "99069.12",
+        "sales_date": "2026-06-19T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 170,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "696.44",
+        "price_per_litre": "1401.55",
+        "total_amount": "976095.48",
+        "sales_date": "2026-06-19T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 169,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1537.81",
+        "price_per_litre": "1208.86",
+        "total_amount": "1858997.00",
+        "sales_date": "2026-06-19T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 168,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "93.84",
+        "price_per_litre": "1016.21",
+        "total_amount": "95361.15",
+        "sales_date": "2026-06-19T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 167,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "380.97",
+        "price_per_litre": "1423.12",
+        "total_amount": "542166.03",
+        "sales_date": "2026-06-19T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 166,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1147.75",
+        "price_per_litre": "1284.78",
+        "total_amount": "1474606.25",
+        "sales_date": "2026-06-19T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 165,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "66.96",
+        "price_per_litre": "1147.79",
+        "total_amount": "76856.02",
+        "sales_date": "2026-06-19T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 164,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "628.62",
+        "price_per_litre": "1482.76",
+        "total_amount": "932092.59",
+        "sales_date": "2026-06-19T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 163,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1560.74",
+        "price_per_litre": "1180.95",
+        "total_amount": "1843155.90",
+        "sales_date": "2026-06-19T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 162,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "66.48",
+        "price_per_litre": "1005.88",
+        "total_amount": "66870.90",
+        "sales_date": "2026-06-18T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 161,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "652.27",
+        "price_per_litre": "1401.55",
+        "total_amount": "914189.02",
+        "sales_date": "2026-06-18T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 160,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1427.99",
+        "price_per_litre": "1208.86",
+        "total_amount": "1726239.99",
+        "sales_date": "2026-06-18T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 159,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "83.18",
+        "price_per_litre": "1016.21",
+        "total_amount": "84528.35",
+        "sales_date": "2026-06-18T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 158,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "473.76",
+        "price_per_litre": "1423.12",
+        "total_amount": "674217.33",
+        "sales_date": "2026-06-18T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 157,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1477.85",
+        "price_per_litre": "1284.78",
+        "total_amount": "1898712.12",
+        "sales_date": "2026-06-18T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 156,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "88.53",
+        "price_per_litre": "1147.79",
+        "total_amount": "101613.85",
+        "sales_date": "2026-06-18T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 155,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "316.05",
+        "price_per_litre": "1482.76",
+        "total_amount": "468626.30",
+        "sales_date": "2026-06-18T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 154,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1258.50",
+        "price_per_litre": "1180.95",
+        "total_amount": "1486225.58",
+        "sales_date": "2026-06-18T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 153,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "61.62",
+        "price_per_litre": "1005.88",
+        "total_amount": "61982.33",
+        "sales_date": "2026-06-17T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 152,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "564.46",
+        "price_per_litre": "1401.55",
+        "total_amount": "791118.91",
+        "sales_date": "2026-06-17T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 151,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1187.33",
+        "price_per_litre": "1208.86",
+        "total_amount": "1435315.74",
+        "sales_date": "2026-06-17T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 150,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "119.98",
+        "price_per_litre": "1016.21",
+        "total_amount": "121924.88",
+        "sales_date": "2026-06-17T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 149,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "365.02",
+        "price_per_litre": "1423.12",
+        "total_amount": "519467.26",
+        "sales_date": "2026-06-17T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 148,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1313.88",
+        "price_per_litre": "1284.78",
+        "total_amount": "1688046.75",
+        "sales_date": "2026-06-17T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 147,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "148.39",
+        "price_per_litre": "1147.79",
+        "total_amount": "170320.56",
+        "sales_date": "2026-06-17T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 146,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "448.67",
+        "price_per_litre": "1482.76",
+        "total_amount": "665269.93",
+        "sales_date": "2026-06-17T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 145,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1419.90",
+        "price_per_litre": "1180.95",
+        "total_amount": "1676830.91",
+        "sales_date": "2026-06-17T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 144,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "133.76",
+        "price_per_litre": "1005.88",
+        "total_amount": "134546.51",
+        "sales_date": "2026-06-16T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 143,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "659.13",
+        "price_per_litre": "1401.55",
+        "total_amount": "923803.65",
+        "sales_date": "2026-06-16T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 142,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "921.99",
+        "price_per_litre": "1208.86",
+        "total_amount": "1114556.83",
+        "sales_date": "2026-06-16T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 141,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "135.73",
+        "price_per_litre": "1016.21",
+        "total_amount": "137930.18",
+        "sales_date": "2026-06-16T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 140,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "485.11",
+        "price_per_litre": "1423.12",
+        "total_amount": "690369.74",
+        "sales_date": "2026-06-16T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 139,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1022.18",
+        "price_per_litre": "1284.78",
+        "total_amount": "1313276.42",
+        "sales_date": "2026-06-16T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 138,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "128.22",
+        "price_per_litre": "1147.79",
+        "total_amount": "147169.63",
+        "sales_date": "2026-06-16T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 137,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "537.34",
+        "price_per_litre": "1482.76",
+        "total_amount": "796746.26",
+        "sales_date": "2026-06-16T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 136,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1596.15",
+        "price_per_litre": "1180.95",
+        "total_amount": "1884973.34",
+        "sales_date": "2026-06-16T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 135,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "149.09",
+        "price_per_litre": "1005.88",
+        "total_amount": "149966.65",
+        "sales_date": "2026-06-15T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 134,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "632.39",
+        "price_per_litre": "1401.55",
+        "total_amount": "886326.20",
+        "sales_date": "2026-06-15T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 133,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1223.36",
+        "price_per_litre": "1208.86",
+        "total_amount": "1478870.97",
+        "sales_date": "2026-06-15T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 132,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "95.54",
+        "price_per_litre": "1016.21",
+        "total_amount": "97088.70",
+        "sales_date": "2026-06-15T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 131,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "689.24",
+        "price_per_litre": "1423.12",
+        "total_amount": "980871.23",
+        "sales_date": "2026-06-15T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 130,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1232.05",
+        "price_per_litre": "1284.78",
+        "total_amount": "1582913.20",
+        "sales_date": "2026-06-15T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 129,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "60.47",
+        "price_per_litre": "1147.79",
+        "total_amount": "69406.86",
+        "sales_date": "2026-06-15T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 128,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "435.73",
+        "price_per_litre": "1482.76",
+        "total_amount": "646083.01",
+        "sales_date": "2026-06-15T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 127,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1253.55",
+        "price_per_litre": "1180.95",
+        "total_amount": "1480379.87",
+        "sales_date": "2026-06-15T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 126,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "53.72",
+        "price_per_litre": "1005.88",
+        "total_amount": "54035.87",
+        "sales_date": "2026-06-14T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 125,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "339.36",
+        "price_per_litre": "1401.55",
+        "total_amount": "475630.01",
+        "sales_date": "2026-06-14T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 124,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1563.81",
+        "price_per_litre": "1208.86",
+        "total_amount": "1890427.36",
+        "sales_date": "2026-06-14T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 123,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "55.98",
+        "price_per_litre": "1016.21",
+        "total_amount": "56887.44",
+        "sales_date": "2026-06-14T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 122,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "434.27",
+        "price_per_litre": "1423.12",
+        "total_amount": "618018.32",
+        "sales_date": "2026-06-14T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 121,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1514.60",
+        "price_per_litre": "1284.78",
+        "total_amount": "1945927.79",
+        "sales_date": "2026-06-14T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 120,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "132.53",
+        "price_per_litre": "1147.79",
+        "total_amount": "152116.61",
+        "sales_date": "2026-06-14T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 119,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "333.99",
+        "price_per_litre": "1482.76",
+        "total_amount": "495227.01",
+        "sales_date": "2026-06-14T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 118,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1038.43",
+        "price_per_litre": "1180.95",
+        "total_amount": "1226333.91",
+        "sales_date": "2026-06-14T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 117,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "101.73",
+        "price_per_litre": "1005.88",
+        "total_amount": "102328.17",
+        "sales_date": "2026-06-13T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 116,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "539.06",
+        "price_per_litre": "1401.55",
+        "total_amount": "755519.54",
+        "sales_date": "2026-06-13T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 115,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1346.57",
+        "price_per_litre": "1208.86",
+        "total_amount": "1627814.61",
+        "sales_date": "2026-06-13T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 114,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "69.57",
+        "price_per_litre": "1016.21",
+        "total_amount": "70697.73",
+        "sales_date": "2026-06-13T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 113,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "507.51",
+        "price_per_litre": "1423.12",
+        "total_amount": "722247.63",
+        "sales_date": "2026-06-13T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 112,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1135.61",
+        "price_per_litre": "1284.78",
+        "total_amount": "1459009.02",
+        "sales_date": "2026-06-13T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 111,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "67.44",
+        "price_per_litre": "1147.79",
+        "total_amount": "77406.96",
+        "sales_date": "2026-06-13T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 110,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "669.76",
+        "price_per_litre": "1482.76",
+        "total_amount": "993093.34",
+        "sales_date": "2026-06-13T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 109,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "800.44",
+        "price_per_litre": "1180.95",
+        "total_amount": "945279.62",
+        "sales_date": "2026-06-13T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 108,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "120.40",
+        "price_per_litre": "1005.88",
+        "total_amount": "121107.95",
+        "sales_date": "2026-06-12T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 107,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "475.94",
+        "price_per_litre": "1401.55",
+        "total_amount": "667053.71",
+        "sales_date": "2026-06-12T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 106,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1099.60",
+        "price_per_litre": "1208.86",
+        "total_amount": "1329262.46",
+        "sales_date": "2026-06-12T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 105,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "95.64",
+        "price_per_litre": "1016.21",
+        "total_amount": "97190.32",
+        "sales_date": "2026-06-12T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 104,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "355.52",
+        "price_per_litre": "1423.12",
+        "total_amount": "505947.62",
+        "sales_date": "2026-06-12T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 103,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1467.78",
+        "price_per_litre": "1284.78",
+        "total_amount": "1885774.39",
+        "sales_date": "2026-06-12T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 102,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "51.77",
+        "price_per_litre": "1147.79",
+        "total_amount": "59421.09",
+        "sales_date": "2026-06-12T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 101,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "363.78",
+        "price_per_litre": "1482.76",
+        "total_amount": "539398.43",
+        "sales_date": "2026-06-12T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 100,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1503.70",
+        "price_per_litre": "1180.95",
+        "total_amount": "1775794.52",
+        "sales_date": "2026-06-12T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 99,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "50.04",
+        "price_per_litre": "1005.88",
+        "total_amount": "50334.24",
+        "sales_date": "2026-06-11T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 98,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "376.78",
+        "price_per_litre": "1401.55",
+        "total_amount": "528076.01",
+        "sales_date": "2026-06-11T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 97,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1395.85",
+        "price_per_litre": "1208.86",
+        "total_amount": "1687387.23",
+        "sales_date": "2026-06-11T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 96,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "54.09",
+        "price_per_litre": "1016.21",
+        "total_amount": "54966.80",
+        "sales_date": "2026-06-11T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 95,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "658.67",
+        "price_per_litre": "1423.12",
+        "total_amount": "937366.45",
+        "sales_date": "2026-06-11T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 94,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "912.38",
+        "price_per_litre": "1284.78",
+        "total_amount": "1172207.58",
+        "sales_date": "2026-06-11T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 93,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "100.03",
+        "price_per_litre": "1147.79",
+        "total_amount": "114813.43",
+        "sales_date": "2026-06-11T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 92,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "427.81",
+        "price_per_litre": "1482.76",
+        "total_amount": "634339.56",
+        "sales_date": "2026-06-11T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 91,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1239.09",
+        "price_per_litre": "1180.95",
+        "total_amount": "1463303.34",
+        "sales_date": "2026-06-11T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 90,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "147.74",
+        "price_per_litre": "1005.88",
+        "total_amount": "148608.71",
+        "sales_date": "2026-06-10T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 89,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "643.34",
+        "price_per_litre": "1401.55",
+        "total_amount": "901673.18",
+        "sales_date": "2026-06-10T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 88,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1034.17",
+        "price_per_litre": "1208.86",
+        "total_amount": "1250166.75",
+        "sales_date": "2026-06-10T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 87,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "63.40",
+        "price_per_litre": "1016.21",
+        "total_amount": "64427.71",
+        "sales_date": "2026-06-10T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 86,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "327.01",
+        "price_per_litre": "1423.12",
+        "total_amount": "465374.47",
+        "sales_date": "2026-06-10T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 85,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "801.22",
+        "price_per_litre": "1284.78",
+        "total_amount": "1029391.43",
+        "sales_date": "2026-06-10T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 84,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "143.29",
+        "price_per_litre": "1147.79",
+        "total_amount": "164466.83",
+        "sales_date": "2026-06-10T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 83,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "463.72",
+        "price_per_litre": "1482.76",
+        "total_amount": "687585.47",
+        "sales_date": "2026-06-10T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 82,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "861.66",
+        "price_per_litre": "1180.95",
+        "total_amount": "1017577.38",
+        "sales_date": "2026-06-10T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 81,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "130.80",
+        "price_per_litre": "1005.88",
+        "total_amount": "131569.10",
+        "sales_date": "2026-06-09T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 80,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "372.62",
+        "price_per_litre": "1401.55",
+        "total_amount": "522245.56",
+        "sales_date": "2026-06-09T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 79,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1590.83",
+        "price_per_litre": "1208.86",
+        "total_amount": "1923090.75",
+        "sales_date": "2026-06-09T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 78,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "126.36",
+        "price_per_litre": "1016.21",
+        "total_amount": "128408.30",
+        "sales_date": "2026-06-09T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 77,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "651.58",
+        "price_per_litre": "1423.12",
+        "total_amount": "927276.53",
+        "sales_date": "2026-06-09T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 76,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "972.21",
+        "price_per_litre": "1284.78",
+        "total_amount": "1249075.96",
+        "sales_date": "2026-06-09T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 75,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "84.32",
+        "price_per_litre": "1147.79",
+        "total_amount": "96781.65",
+        "sales_date": "2026-06-09T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 74,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "592.18",
+        "price_per_litre": "1482.76",
+        "total_amount": "878060.82",
+        "sales_date": "2026-06-09T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 73,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1215.28",
+        "price_per_litre": "1180.95",
+        "total_amount": "1435184.92",
+        "sales_date": "2026-06-09T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 72,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "69.57",
+        "price_per_litre": "1005.88",
+        "total_amount": "69979.07",
+        "sales_date": "2026-06-08T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 71,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "381.63",
+        "price_per_litre": "1401.55",
+        "total_amount": "534873.53",
+        "sales_date": "2026-06-08T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 70,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1571.96",
+        "price_per_litre": "1208.86",
+        "total_amount": "1900279.57",
+        "sales_date": "2026-06-08T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 69,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "61.87",
+        "price_per_litre": "1016.21",
+        "total_amount": "62872.91",
+        "sales_date": "2026-06-08T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 68,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "687.64",
+        "price_per_litre": "1423.12",
+        "total_amount": "978594.24",
+        "sales_date": "2026-06-08T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 67,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1465.86",
+        "price_per_litre": "1284.78",
+        "total_amount": "1883307.61",
+        "sales_date": "2026-06-08T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 66,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "98.14",
+        "price_per_litre": "1147.79",
+        "total_amount": "112644.11",
+        "sales_date": "2026-06-08T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 65,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "574.95",
+        "price_per_litre": "1482.76",
+        "total_amount": "852512.86",
+        "sales_date": "2026-06-08T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 64,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1304.68",
+        "price_per_litre": "1180.95",
+        "total_amount": "1540761.85",
+        "sales_date": "2026-06-08T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 63,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "143.41",
+        "price_per_litre": "1005.88",
+        "total_amount": "144253.25",
+        "sales_date": "2026-06-07T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 62,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "587.00",
+        "price_per_litre": "1401.55",
+        "total_amount": "822709.85",
+        "sales_date": "2026-06-07T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 61,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "922.49",
+        "price_per_litre": "1208.86",
+        "total_amount": "1115161.26",
+        "sales_date": "2026-06-07T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 60,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "108.60",
+        "price_per_litre": "1016.21",
+        "total_amount": "110360.41",
+        "sales_date": "2026-06-07T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 59,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "330.43",
+        "price_per_litre": "1423.12",
+        "total_amount": "470241.54",
+        "sales_date": "2026-06-07T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 58,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1535.61",
+        "price_per_litre": "1284.78",
+        "total_amount": "1972921.02",
+        "sales_date": "2026-06-07T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 57,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "133.74",
+        "price_per_litre": "1147.79",
+        "total_amount": "153505.43",
+        "sales_date": "2026-06-07T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 56,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "589.35",
+        "price_per_litre": "1482.76",
+        "total_amount": "873864.61",
+        "sales_date": "2026-06-07T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 55,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1218.57",
+        "price_per_litre": "1180.95",
+        "total_amount": "1439070.24",
+        "sales_date": "2026-06-07T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 54,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "83.76",
+        "price_per_litre": "1005.88",
+        "total_amount": "84252.51",
+        "sales_date": "2026-06-06T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 53,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "548.93",
+        "price_per_litre": "1401.55",
+        "total_amount": "769352.84",
+        "sales_date": "2026-06-06T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 52,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "919.44",
+        "price_per_litre": "1208.86",
+        "total_amount": "1111474.24",
+        "sales_date": "2026-06-06T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 51,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "110.54",
+        "price_per_litre": "1016.21",
+        "total_amount": "112331.85",
+        "sales_date": "2026-06-06T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 50,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "353.18",
+        "price_per_litre": "1423.12",
+        "total_amount": "502617.52",
+        "sales_date": "2026-06-06T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 49,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "900.48",
+        "price_per_litre": "1284.78",
+        "total_amount": "1156918.69",
+        "sales_date": "2026-06-06T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 48,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "67.94",
+        "price_per_litre": "1147.79",
+        "total_amount": "77980.85",
+        "sales_date": "2026-06-06T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 47,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "585.34",
+        "price_per_litre": "1482.76",
+        "total_amount": "867918.74",
+        "sales_date": "2026-06-06T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 46,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1415.72",
+        "price_per_litre": "1180.95",
+        "total_amount": "1671894.53",
+        "sales_date": "2026-06-06T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 45,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "51.45",
+        "price_per_litre": "1005.88",
+        "total_amount": "51752.53",
+        "sales_date": "2026-06-05T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 44,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "315.11",
+        "price_per_litre": "1401.55",
+        "total_amount": "441642.42",
+        "sales_date": "2026-06-05T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 43,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1128.29",
+        "price_per_litre": "1208.86",
+        "total_amount": "1363944.65",
+        "sales_date": "2026-06-05T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 42,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "147.75",
+        "price_per_litre": "1016.21",
+        "total_amount": "150145.03",
+        "sales_date": "2026-06-05T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 41,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "386.76",
+        "price_per_litre": "1423.12",
+        "total_amount": "550405.89",
+        "sales_date": "2026-06-05T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 40,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1335.32",
+        "price_per_litre": "1284.78",
+        "total_amount": "1715592.43",
+        "sales_date": "2026-06-05T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 39,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "51.87",
+        "price_per_litre": "1147.79",
+        "total_amount": "59535.87",
+        "sales_date": "2026-06-05T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 38,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "698.02",
+        "price_per_litre": "1482.76",
+        "total_amount": "1034996.14",
+        "sales_date": "2026-06-05T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 37,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1513.54",
+        "price_per_litre": "1180.95",
+        "total_amount": "1787415.06",
+        "sales_date": "2026-06-05T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 36,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "81.13",
+        "price_per_litre": "1005.88",
+        "total_amount": "81607.04",
+        "sales_date": "2026-06-04T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 35,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "693.21",
+        "price_per_litre": "1401.55",
+        "total_amount": "971568.48",
+        "sales_date": "2026-06-04T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 34,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "871.59",
+        "price_per_litre": "1208.86",
+        "total_amount": "1053630.29",
+        "sales_date": "2026-06-04T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 33,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "109.01",
+        "price_per_litre": "1016.21",
+        "total_amount": "110777.05",
+        "sales_date": "2026-06-04T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 32,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "410.88",
+        "price_per_litre": "1423.12",
+        "total_amount": "584731.55",
+        "sales_date": "2026-06-04T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 31,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "820.52",
+        "price_per_litre": "1284.78",
+        "total_amount": "1054187.69",
+        "sales_date": "2026-06-04T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 30,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "133.45",
+        "price_per_litre": "1147.79",
+        "total_amount": "153172.58",
+        "sales_date": "2026-06-04T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 29,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "513.56",
+        "price_per_litre": "1482.76",
+        "total_amount": "761486.23",
+        "sales_date": "2026-06-04T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 28,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1571.31",
+        "price_per_litre": "1180.95",
+        "total_amount": "1855638.54",
+        "sales_date": "2026-06-04T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 27,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "112.23",
+        "price_per_litre": "1005.88",
+        "total_amount": "112889.91",
+        "sales_date": "2026-06-03T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 26,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "394.45",
+        "price_per_litre": "1401.55",
+        "total_amount": "552841.40",
+        "sales_date": "2026-06-03T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 25,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1590.62",
+        "price_per_litre": "1208.86",
+        "total_amount": "1922836.89",
+        "sales_date": "2026-06-03T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 24,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "115.54",
+        "price_per_litre": "1016.21",
+        "total_amount": "117412.90",
+        "sales_date": "2026-06-03T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 23,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "464.69",
+        "price_per_litre": "1423.12",
+        "total_amount": "661309.63",
+        "sales_date": "2026-06-03T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 22,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1145.66",
+        "price_per_litre": "1284.78",
+        "total_amount": "1471921.05",
+        "sales_date": "2026-06-03T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 21,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "57.92",
+        "price_per_litre": "1147.79",
+        "total_amount": "66480.00",
+        "sales_date": "2026-06-03T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 20,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "363.42",
+        "price_per_litre": "1482.76",
+        "total_amount": "538864.64",
+        "sales_date": "2026-06-03T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 19,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1430.78",
+        "price_per_litre": "1180.95",
+        "total_amount": "1689679.64",
+        "sales_date": "2026-06-03T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 18,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "123.87",
+        "price_per_litre": "1005.88",
+        "total_amount": "124598.36",
+        "sales_date": "2026-06-02T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 17,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "305.04",
+        "price_per_litre": "1401.55",
+        "total_amount": "427528.81",
+        "sales_date": "2026-06-02T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 16,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "803.63",
+        "price_per_litre": "1208.86",
+        "total_amount": "971476.16",
+        "sales_date": "2026-06-02T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 15,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "131.04",
+        "price_per_litre": "1016.21",
+        "total_amount": "133164.16",
+        "sales_date": "2026-06-02T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 14,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "642.51",
+        "price_per_litre": "1423.12",
+        "total_amount": "914368.83",
+        "sales_date": "2026-06-02T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 13,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1240.13",
+        "price_per_litre": "1284.78",
+        "total_amount": "1593294.22",
+        "sales_date": "2026-06-02T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 12,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "99.88",
+        "price_per_litre": "1147.79",
+        "total_amount": "114641.27",
+        "sales_date": "2026-06-02T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 11,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "675.41",
+        "price_per_litre": "1482.76",
+        "total_amount": "1001470.93",
+        "sales_date": "2026-06-02T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 10,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1363.12",
+        "price_per_litre": "1180.95",
+        "total_amount": "1609776.56",
+        "sales_date": "2026-06-02T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 9,
+        "station_name": "Apapa Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "50.71",
+        "price_per_litre": "1005.88",
+        "total_amount": "51008.17",
+        "sales_date": "2026-06-01T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 8,
+        "station_name": "Apapa Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "517.08",
+        "price_per_litre": "1401.55",
+        "total_amount": "724713.47",
+        "sales_date": "2026-06-01T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 7,
+        "station_name": "Apapa Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1276.01",
+        "price_per_litre": "1208.86",
+        "total_amount": "1542517.45",
+        "sales_date": "2026-06-01T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 6,
+        "station_name": "Lekki Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "52.94",
+        "price_per_litre": "1016.21",
+        "total_amount": "53798.16",
+        "sales_date": "2026-06-01T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 5,
+        "station_name": "Lekki Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "344.34",
+        "price_per_litre": "1423.12",
+        "total_amount": "490037.14",
+        "sales_date": "2026-06-01T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 4,
+        "station_name": "Lekki Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1541.51",
+        "price_per_litre": "1284.78",
+        "total_amount": "1980501.22",
+        "sales_date": "2026-06-01T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 3,
+        "station_name": "Ikeja Station",
+        "fuel_type": "DPK",
+        "quantity_sold": "121.16",
+        "price_per_litre": "1147.79",
+        "total_amount": "139066.24",
+        "sales_date": "2026-06-01T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 2,
+        "station_name": "Ikeja Station",
+        "fuel_type": "AGO",
+        "quantity_sold": "578.48",
+        "price_per_litre": "1482.76",
+        "total_amount": "857747.00",
+        "sales_date": "2026-06-01T00:00:00.000Z",
+        "payment_method": "Card"
+      },
+      {
+        "id": 1,
+        "station_name": "Ikeja Station",
+        "fuel_type": "PMS",
+        "quantity_sold": "1112.90",
+        "price_per_litre": "1180.95",
+        "total_amount": "1314279.26",
+        "sales_date": "2026-06-01T00:00:00.000Z",
+        "payment_method": "Card"
+      }
+    ],
+    "report": {
+      "inventory": 9,
+      "sales": "150307882.03",
+      "suppliers": 3,
+      "staff": 0,
+      "deliveries": 9,
+      "attendance": 0,
+      "bestFuel": {
+        "fuel_type": "PMS",
+        "totalSold": "73454.56"
+      },
+      "topStation": {
+        "station_name": "Lekki Station",
+        "revenue": "51455080.83"
+      },
+      "recentDeliveries": [
+        {
+          "id": 9,
+          "supplier_name": "Ardova Plc",
+          "destination": "Apapa Station",
+          "fuel_type": "DPK",
+          "quantity": "5000.00",
+          "delivery_date": "2026-06-01T00:00:00.000Z",
+          "driver_name": "Test Driver",
+          "truck_number": "LND-100XY",
+          "status": "Delivered"
+        },
+        {
+          "id": 8,
+          "supplier_name": "Rainoil Ltd",
+          "destination": "Apapa Station",
+          "fuel_type": "AGO",
+          "quantity": "12000.00",
+          "delivery_date": "2026-06-01T00:00:00.000Z",
+          "driver_name": "Test Driver",
+          "truck_number": "LND-100XY",
+          "status": "Delivered"
+        },
+        {
+          "id": 7,
+          "supplier_name": "Techno Oil Ltd",
+          "destination": "Apapa Station",
+          "fuel_type": "PMS",
+          "quantity": "25000.00",
+          "delivery_date": "2026-06-01T00:00:00.000Z",
+          "driver_name": "Test Driver",
+          "truck_number": "LND-100XY",
+          "status": "Delivered"
+        },
+        {
+          "id": 6,
+          "supplier_name": "Ardova Plc",
+          "destination": "Lekki Station",
+          "fuel_type": "DPK",
+          "quantity": "5000.00",
+          "delivery_date": "2026-06-01T00:00:00.000Z",
+          "driver_name": "Test Driver",
+          "truck_number": "LND-100XY",
+          "status": "Delivered"
+        },
+        {
+          "id": 5,
+          "supplier_name": "Rainoil Ltd",
+          "destination": "Lekki Station",
+          "fuel_type": "AGO",
+          "quantity": "12000.00",
+          "delivery_date": "2026-06-01T00:00:00.000Z",
+          "driver_name": "Test Driver",
+          "truck_number": "LND-100XY",
+          "status": "Delivered"
+        }
+      ],
+      "lowStock": [
+        {
+          "id": 1,
+          "station_name": "Ikeja Station",
+          "fuel_type": "PMS",
+          "quantity": "321.94",
+          "minimum_level": "5000.00",
+          "last_updated": "2026-06-01T00:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "station_name": "Ikeja Station",
+          "fuel_type": "AGO",
+          "quantity": "275.96",
+          "minimum_level": "5000.00",
+          "last_updated": "2026-06-01T00:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "station_name": "Ikeja Station",
+          "fuel_type": "DPK",
+          "quantity": "2259.10",
+          "minimum_level": "5000.00",
+          "last_updated": "2026-06-01T00:00:00.000Z"
+        },
+        {
+          "id": 4,
+          "station_name": "Lekki Station",
+          "fuel_type": "PMS",
+          "quantity": "574.57",
+          "minimum_level": "5000.00",
+          "last_updated": "2026-06-01T00:00:00.000Z"
+        },
+        {
+          "id": 5,
+          "station_name": "Lekki Station",
+          "fuel_type": "AGO",
+          "quantity": "97.82",
+          "minimum_level": "5000.00",
+          "last_updated": "2026-06-01T00:00:00.000Z"
+        }
+      ],
+      "fuelChart": [
+        {
+          "fuel_type": "AGO",
+          "totalSold": "35612.71"
+        },
+        {
+          "fuel_type": "DPK",
+          "totalSold": "8751.86"
+        },
+        {
+          "fuel_type": "PMS",
+          "totalSold": "73454.56"
+        }
+      ],
+      "stationChart": [
+        {
+          "station_name": "Apapa Station",
+          "revenue": "49179331.05"
+        },
+        {
+          "station_name": "Ikeja Station",
+          "revenue": "49673470.15"
+        },
+        {
+          "station_name": "Lekki Station",
+          "revenue": "51455080.83"
+        }
+      ]
+    }
+  },
+  "results": [
+    {
+      "check": "Inventory: Ikeja Station / PMS",
+      "expected": 321.94,
+      "actual": 321.94,
+      "pass": true
+    },
+    {
+      "check": "Inventory: Ikeja Station / AGO",
+      "expected": 275.96,
+      "actual": 275.96,
+      "pass": true
+    },
+    {
+      "check": "Inventory: Ikeja Station / DPK",
+      "expected": 2259.1,
+      "actual": 2259.1,
+      "pass": true
+    },
+    {
+      "check": "Inventory: Lekki Station / PMS",
+      "expected": 574.57,
+      "actual": 574.57,
+      "pass": true
+    },
+    {
+      "check": "Inventory: Lekki Station / AGO",
+      "expected": 97.82,
+      "actual": 97.82,
+      "pass": true
+    },
+    {
+      "check": "Inventory: Lekki Station / DPK",
+      "expected": 1914.47,
+      "actual": 1914.47,
+      "pass": true
+    },
+    {
+      "check": "Inventory: Apapa Station / PMS",
+      "expected": 648.93,
+      "actual": 648.93,
+      "pass": true
+    },
+    {
+      "check": "Inventory: Apapa Station / AGO",
+      "expected": 13.51,
+      "actual": 13.51,
+      "pass": true
+    },
+    {
+      "check": "Inventory: Apapa Station / DPK",
+      "expected": 2074.57,
+      "actual": 2074.57,
+      "pass": true
+    },
+    {
+      "check": "Total sales revenue (₦)",
+      "expected": 150307882.03,
+      "actual": 150307882.03,
+      "pass": true
+    },
+    {
+      "check": "Total sales records",
+      "expected": 221,
+      "actual": 221,
+      "pass": true
+    },
+    {
+      "check": "Best-selling fuel type",
+      "expected": "PMS",
+      "actual": "PMS",
+      "pass": true
+    },
+    {
+      "check": "Top revenue-generating station",
+      "expected": "Lekki Station",
+      "actual": "Lekki Station",
+      "pass": true
+    },
+    {
+      "check": "Oversell attempt correctly rejected",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    }
+  ],
+  "summary": "14/14 passed"
+}
