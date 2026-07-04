@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Attendance Management</title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+    <script src="../js/authCheck.js"></script>
+    <script src="../js/roleCheck.js"></script>
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar">
+
+        <h2>PetroFLow-OMS</h2>
+
+        <a href="dashboard.html">Dashboard</a>
+        <a href="inventory.html">Fuel Inventory</a>
+        <a href="sales.html">Sales</a>
+        <a href="suppliers.html">Suppliers</a>
+        <a href="deliveries.html">Deliveries</a>
+        <a href="prices.html">Fuel Prices</a>
+        <a href="staff.html">Staff</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="reports.html">Reports</a>
+    
+<a href="change-password.html">Change Password</a>
+<button class="dark-toggle" onclick="toggleDarkMode()">
+    Toggle Dark Mode
+</button>
+
+        <a href="#" onclick="logout()">Logout</a>
+
+    </aside>
+
+
+    <main class="main-content">
+
+        <h1>Attendance Management</h1>
+
+        <p>
+            Record staff attendance, shift participation, and daily work status.
+        </p>
+
+
+        <div class="form-section">
+
+            <h2>Record Attendance</h2>
+
+            <form id="attendanceForm">
+
+                <label>Staff Name</label>
+                <input
+                    type="text"
+                    id="staff_name"
+                    placeholder="e.g. Chinedu Okafor"
+                    required
+                >
+
+                <label>Station / Depot</label>
+                <input
+                    type="text"
+                    id="station_name"
+                    placeholder="e.g. Lekki Station"
+                    required
+                >
+
+                <label>Shift</label>
+                <select
+                    id="shift_name"
+                    required
+                >
+                    <option value="">Select shift</option>
+                    <option value="Morning Shift">Morning Shift</option>
+                    <option value="Afternoon Shift">Afternoon Shift</option>
+                    <option value="Night Shift">Night Shift</option>
+                </select>
+
+                <label>Check-in Time</label>
+                <input
+                    type="time"
+                    id="check_in"
+                    required
+                >
+
+                <label>Check-out Time</label>
+                <input
+                    type="time"
+                    id="check_out"
+                    required
+                >
+
+                <label>Attendance Date</label>
+                <input
+                    type="date"
+                    id="attendance_date"
+                    required
+                >
+
+                <label>Status</label>
+                <select
+                    id="status"
+                    required
+                >
+                    <option value="">Select status</option>
+                    <option value="Present">Present</option>
+                    <option value="Late">Late</option>
+                    <option value="Absent">Absent</option>
+                    <option value="On Leave">On Leave</option>
+                </select>
+
+                <button type="submit">
+                    Save Attendance
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <div class="table-section">
+
+            <h2>Attendance Records</h2>
+
+            <button id="exportAttendanceBtn">
+    Export Attendance CSV
+</button>
+
+<input
+    type="text"
+    id="attendanceSearch"
+    placeholder="Search attendance..."
+>
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Staff Name</th>
+                        <th>Station/Depot</th>
+                        <th>Shift</th>
+                        <th>Check-in</th>
+                        <th>Check-out</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Location Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="attendanceTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+<script src="../js/sidebar.js"></script>
+<script src="../js/darkMode.js"></script>
+<script src="../js/api.js"></script>
+<script src="../js/attendance.js"></script>
+<script src="../js/logout.js"></script>
+
+
+</body>
+
+</html>

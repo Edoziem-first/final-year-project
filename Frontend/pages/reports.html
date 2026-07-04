@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Reports</title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+    <script src="../js/authCheck.js"></script>
+    <script src="../js/roleCheck.js"></script>
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar">
+
+        <h2>PetroFLow-OMS</h2>
+
+        <a href="dashboard.html">Dashboard</a>
+        <a href="inventory.html">Fuel Inventory</a>
+        <a href="sales.html">Sales</a>
+        <a href="suppliers.html">Suppliers</a>
+        <a href="deliveries.html">Deliveries</a>
+        <a href="prices.html">Fuel Prices</a>
+        <a href="staff.html">Staff</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="reports.html">Reports</a>
+        
+        <a href="change-password.html">Change Password</a>
+        <button class="dark-toggle" onclick="toggleDarkMode()">
+    Toggle Dark Mode
+</button>
+
+        <a href="#" onclick="logout()">Logout</a>
+
+    </aside>
+
+
+    <main class="main-content">
+
+        <h1>Reports</h1>
+
+        <p>
+            View operational summaries generated from the system database.
+        </p>
+
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Total Inventory Records</h3>
+                <p id="inventoryCount">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Sales Revenue</h3>
+                <p id="salesRevenue">₦0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Suppliers</h3>
+                <p id="supplierCount">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Staff</h3>
+                <p id="staffCount">0</p>
+            </div>
+
+        </div>
+
+
+        <div class="table-section">
+
+            <h2>Report Summary</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Report Area</th>
+                        <th>Description</th>
+                        <th>Purpose</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Inventory</td>
+                        <td>Shows the number of fuel stock records in the system.</td>
+                        <td>Helps monitor fuel availability and stock updates.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sales</td>
+                        <td>Shows the total revenue recorded from fuel sales.</td>
+                        <td>Supports revenue tracking and financial monitoring.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Suppliers</td>
+                        <td>Shows the number of registered fuel suppliers.</td>
+                        <td>Supports supplier coordination and record management.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Staff</td>
+                        <td>Shows the number of staff members registered in the system.</td>
+                        <td>Supports staff monitoring and accountability.</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+<script src="../js/sidebar.js"></script>
+<script src="../js/darkMode.js"></script>
+<script src="../js/api.js"></script>
+<script src="../js/reports.js"></script>
+<script src="../js/logout.js"></script>
+
+</body>
+
+</html>

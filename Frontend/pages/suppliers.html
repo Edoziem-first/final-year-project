@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+
+        Supplier Management
+
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+    <script src="../js/authCheck.js"></script>
+    <script src="../js/roleCheck.js"></script>
+
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar">
+
+        <h2>PetroFLow-OMS</h2>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="inventory.html">Fuel Inventory</a>
+        <a href="sales.html">Sales</a>
+        <a href="suppliers.html">Suppliers</a>
+        <a href="deliveries.html">Deliveries</a>
+        <a href="prices.html">Fuel Prices</a>
+        <a href="staff.html">Staff</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="reports.html">Reports</a>
+        
+        <a href="change-password.html">Change Password</a>
+        <button class="dark-toggle" onclick="toggleDarkMode()">
+    Toggle Dark Mode
+</button>
+
+       <a href="#" onclick="logout()">Logout</a>
+
+    </aside>
+
+
+
+    <main class="main-content">
+
+        <h1>
+
+            Supplier Management
+
+        </h1>
+
+        <p>
+
+            Manage fuel suppliers and supplier information.
+
+        </p>
+
+
+
+        <!-- Supplier Form -->
+
+        <div class="form-section">
+
+            <h2>
+
+                Add Supplier
+
+            </h2>
+
+            <form id="supplierForm">
+
+
+                <label>
+
+                    Supplier Name
+
+                </label>
+
+                <input
+                    type="text"
+                    id="supplier_name"
+                    placeholder="e.g. Total Energies"
+                    required
+                >
+
+
+
+                <label>
+
+                    Fuel Type
+
+                </label>
+
+                <select
+                    id="fuel_type"
+                    required
+                >
+
+                    <option value="">
+                        Select fuel type
+                    </option>
+
+                    <option value="Petrol PMS">
+                        Petrol PMS
+                    </option>
+
+                    <option value="Diesel AGO">
+                        Diesel AGO
+                    </option>
+
+                    <option value="Kerosene DPK">
+                        Kerosene DPK
+                    </option>
+
+                </select>
+
+
+
+                <label>
+
+                    Contact Person
+
+                </label>
+
+                <input
+                    type="text"
+                    id="contact_person"
+                    placeholder="e.g. John Doe"
+                    required
+                >
+
+
+
+                <label>
+
+                    Phone Number
+
+                </label>
+
+                <input
+                    type="text"
+                    id="phone"
+                    placeholder="e.g. 08012345678"
+                    required
+                >
+
+
+
+                <label>
+
+                    Email Address
+
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="supplier@email.com"
+                    required
+                >
+
+
+
+                <label>
+
+                    Status
+
+                </label>
+
+                <select
+                    id="status"
+                    required
+                >
+
+                    <option value="">
+                        Select status
+                    </option>
+
+                    <option value="Active">
+                        Active
+                    </option>
+
+                    <option value="Pending">
+                        Pending
+                    </option>
+
+                    <option value="Inactive">
+                        Inactive
+                    </option>
+
+                </select>
+
+
+
+                <button type="submit">
+
+                    Add Supplier
+
+                </button>
+
+            </form>
+
+        </div>
+
+
+
+
+        <!-- Supplier Table -->
+
+        <div class="table-section">
+
+            <h2>
+
+                Supplier Records
+
+            </h2>
+            <input
+    type="text"
+    id="supplierSearch"
+    placeholder="Search supplier..."
+>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>ID</th>
+
+                        <th>
+                            Supplier
+                        </th>
+
+                        <th>
+                            Fuel Type
+                        </th>
+
+                        <th>
+                            Contact Person
+                        </th>
+
+                        <th>
+                            Phone
+                        </th>
+
+                        <th>
+                            Email
+                        </th>
+
+                        <th>
+                            Status
+                        </th>
+                        <th>Action</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="supplierTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+<script src="../js/sidebar.js"></script>
+<script src="../js/darkMode.js"></script>
+<script src="../js/api.js"></script>
+<script src="../js/suppliers.js"></script>
+<script src="../js/logout.js"></script>
+
+</body>
+
+</html>

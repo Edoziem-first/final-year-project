@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Shift Management</title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+
+    <script src="../js/authCheck.js"></script>
+    <script src="../js/roleCheck.js"></script>
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar"></aside>
+
+    <main class="main-content">
+
+        <h1>Shift Management</h1>
+
+        <p>
+            Assign staff members to shifts based on their role and station.
+        </p>
+
+
+        <div class="form-section">
+
+            <h2>Assign Staff Shift</h2>
+
+            <form id="shiftForm">
+
+                <label>Select Staff</label>
+                <select id="staffSelect" required>
+                    <option value="">Select staff</option>
+                </select>
+
+                <label>Staff ID</label>
+                <input
+                    type="text"
+                    id="staff_id"
+                    readonly
+                >
+
+                <label>Role</label>
+                <input
+                    type="text"
+                    id="role"
+                    readonly
+                >
+
+                <label>Station / Depot</label>
+                <input
+                    type="text"
+                    id="station_name"
+                    readonly
+                >
+
+                <label>Shift Name</label>
+                <select id="shift_name" required>
+                    <option value="">Select shift</option>
+                    <option value="Morning Shift">Morning Shift</option>
+                    <option value="Afternoon Shift">Afternoon Shift</option>
+                    <option value="Night Shift">Night Shift</option>
+                </select>
+
+                <label>Shift Date</label>
+                <input
+                    type="date"
+                    id="shift_date"
+                    required
+                >
+
+                <button type="submit">
+                    Save Shift
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <div class="table-section">
+
+            <h2>Shift Assignments</h2>
+
+            <input
+                type="text"
+                id="shiftSearch"
+                placeholder="Search shifts..."
+            >
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Staff ID</th>
+                        <th>Staff Name</th>
+                        <th>Role</th>
+                        <th>Station</th>
+                        <th>Shift</th>
+                        <th>Date</th>
+                        <th>Assigned By</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="shiftTable"></tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="../js/api.js"></script>
+<script src="../js/shifts.js"></script>
+<script src="../js/sidebar.js"></script>
+<script src="../js/logout.js"></script>
+<script src="../js/darkMode.js"></script>
+
+</body>
+
+</html>

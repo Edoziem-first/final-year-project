@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Dashboard</title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+
+    <script src="../js/authCheck.js"></script>
+    <script src="../js/roleCheck.js"></script>
+
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar"></aside>
+
+
+    <main class="main-content">
+
+        <div class="topbar">
+
+            <div class="notification-wrapper">
+
+                <button
+                    class="notification-btn"
+                    onclick="openNotificationsPage()"
+                >
+
+                    🔔
+
+                    <span id="notificationCount">
+                        0
+                    </span>
+
+                </button>
+
+
+                <div
+                    id="notificationPanel"
+                    class="notification-panel"
+                >
+
+                    <h3>
+                        Notifications
+                    </h3>
+
+                    <div id="notificationList">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <h1>Dashboard</h1>
+
+      
+
+        <div class="dashboard-header">
+
+    <p>
+        Overview of depot and fuel station operations.
+    </p>
+
+    <button id="exportPdfBtn">
+        Export Dashboard Report PDF
+    </button>
+
+</div>
+
+        <!-- SUMMARY CARDS -->
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Total Inventory Records</h3>
+                <p id="inventoryCount">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Sales Revenue</h3>
+                <p id="salesRevenue">₦0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Suppliers</h3>
+                <p id="supplierCount">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Staff</h3>
+                <p id="staffCount">0</p>
+            </div>
+
+        </div>
+
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Total Deliveries</h3>
+                <p id="deliveryCount">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Attendance Records</h3>
+                <p id="attendanceCount">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Low Stock Alerts</h3>
+                <p id="lowStockCount">0</p>
+            </div>
+
+            <div class="card">
+                <h3>System Status</h3>
+                <p>Active</p>
+            </div>
+
+        </div>
+
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Best Selling Fuel</h3>
+                <p id="bestFuel">None</p>
+            </div>
+
+            <div class="card">
+                <h3>Quantity Sold</h3>
+                <p id="bestFuelQty">0L</p>
+            </div>
+
+            <div class="card">
+                <h3>Top Station</h3>
+                <p id="topStation">None</p>
+            </div>
+
+            <div class="card">
+                <h3>Top Station Revenue</h3>
+                <p id="topStationRevenue">₦0</p>
+            </div>
+
+        </div>
+
+
+        <!-- CHARTS -->
+
+        <div class="chart-grid">
+
+            <div class="table-section chart-box">
+
+                <h2>Fuel Sales Distribution</h2>
+
+                <canvas id="fuelChart"></canvas>
+
+            </div>
+
+
+            <div class="table-section chart-box">
+
+                <h2>Revenue By Station</h2>
+
+                <canvas id="stationChart"></canvas>
+
+            </div>
+
+        </div>
+
+
+        <!-- RECENT DELIVERIES -->
+
+        <div class="table-section">
+
+            <h2>Recent Deliveries</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Supplier</th>
+                        <th>Destination</th>
+                        <th>Fuel Type</th>
+                        <th>Quantity</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="recentDeliveriesTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <!-- LOW STOCK -->
+
+        <div class="table-section">
+
+            <h2>Low Stock Items</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Station</th>
+                        <th>Fuel Type</th>
+                        <th>Quantity</th>
+                        <th>Minimum</th>
+                        <th>Status</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="lowStockTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../js/api.js"></script>
+<script src="../js/dashboard.js"></script>
+<script src="../js/sidebar.js"></script>
+<script src="../js/logout.js"></script>
+<script src="../js/darkMode.js"></script>
+
+</body>
+
+</html>

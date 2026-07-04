@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+
+        Fuel Inventory
+
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+<script src="../js/authCheck.js"></script>
+<script src="../js/roleCheck.js"></script>
+</head>
+
+
+<body>
+
+<div class="layout">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <h2>
+
+           PetroFLow-OMS
+
+        </h2>
+
+        <a href="dashboard.html">
+
+            Dashboard
+
+        </a>
+
+        <a href="inventory.html">
+
+            Fuel Inventory
+
+        </a>
+
+        <a href="sales.html">
+
+            Sales
+
+        </a>
+
+        <a href="suppliers.html">
+
+            Suppliers
+
+        </a>
+
+        <a href="deliveries.html">
+
+            Deliveries
+
+        </a>
+
+        <a href="prices.html">
+
+            Fuel Prices
+
+        </a>
+
+        <a href="staff.html">
+
+            Staff
+
+        </a>
+
+        <a href="attendance.html">
+
+            Attendance
+
+        </a>
+
+        <a href="reports.html">
+
+            Reports
+
+        </a>
+
+        
+        <a href="change-password.html">Change Password</a>
+        <button class="dark-toggle" onclick="toggleDarkMode()">
+    Toggle Dark Mode
+</button>
+
+       <a href="#" onclick="logout()">Logout</a>
+
+    </aside>
+
+
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <h1>
+
+            Fuel Inventory Management
+
+        </h1>
+
+        <p>
+
+            Monitor and manage fuel stock levels.
+
+        </p>
+
+
+
+        <!-- Inventory Form -->
+
+        <div class="form-section">
+
+            <h2>
+
+                Add Fuel Stock
+
+            </h2>
+
+
+            <form id="inventoryForm">
+
+
+                <label>
+
+                    Station / Depot Name
+
+                </label>
+
+                <input
+                    type="text"
+                    id="station_name"
+                    placeholder="e.g. Lekki Fuel Station"
+                    required
+                >
+
+
+
+                <label>
+
+                    Fuel Type
+
+                </label>
+
+                <select
+                    id="fuel_type"
+                    required
+                >
+
+                    <option value="">
+
+                        Select fuel type
+
+                    </option>
+
+                    <option value="Petrol PMS">
+
+                        Petrol PMS
+
+                    </option>
+
+                    <option value="Diesel AGO">
+
+                        Diesel AGO
+
+                    </option>
+
+                    <option value="Kerosene DPK">
+
+                        Kerosene DPK
+
+                    </option>
+
+                </select>
+
+
+
+                <label>
+
+                    Quantity Available (Litres)
+
+                </label>
+
+                <input
+                    type="number"
+                    id="quantity"
+                    placeholder="25000"
+                    required
+                >
+
+
+
+                <label>
+
+                    Minimum Stock Level
+
+                </label>
+
+                <input
+                    type="number"
+                    id="minimum_level"
+                    placeholder="5000"
+                    required
+                >
+
+
+
+                <label>
+
+                    Last Updated
+
+                </label>
+
+                <input
+                    type="date"
+                    id="last_updated"
+                    required
+                >
+
+
+
+                <button type="submit">
+
+                    Add Stock
+
+                </button>
+
+            </form>
+
+        </div>
+
+
+
+
+        <!-- Inventory Table -->
+
+        <div class="table-section">
+
+            <h2>
+
+                Inventory Records
+
+            </h2>
+
+            <button id="exportInventoryBtn">
+    Export Inventory CSV
+</button>
+
+            <input
+    type="text"
+    id="inventorySearch"
+    placeholder="Search station, fuel type..."
+>
+
+
+            <table>
+
+                <thead>
+
+                <tr>
+
+                    <th>ID</th>
+
+                    <th>
+                        Station
+                    </th>
+
+                    <th>
+                        Fuel Type
+                    </th>
+
+                    <th>
+                        Quantity
+                    </th>
+
+                    <th>
+                        Minimum Level
+                    </th>
+
+                    <th>Status</th>
+                    <th>Last Updated</th>
+                    <th>Action</th>
+
+                </tr>
+
+                </thead>
+
+
+                <tbody id="inventoryTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+    </main>
+
+</div>
+<script src="../js/sidebar.js"></script>
+<script src="../js/darkMode.js"></script>
+<script src="../js/api.js"></script>
+<script src="../js/inventory.js"></script>
+<script src="../js/logout.js"></script>
+
+</body>
+
+</html>

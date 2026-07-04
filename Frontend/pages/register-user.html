@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Register User</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/authCheck.js"></script>
+    <script src="../js/roleCheck.js"></script>
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar">
+
+        <h2>PetroFLow-OMS</h2>
+
+        <a href="dashboard.html">Dashboard</a>
+        <a href="inventory.html">Fuel Inventory</a>
+        <a href="sales.html">Sales</a>
+        <a href="suppliers.html">Suppliers</a>
+        <a href="deliveries.html">Deliveries</a>
+        <a href="prices.html">Fuel Prices</a>
+        <a href="staff.html">Staff</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="reports.html">Reports</a>
+       
+        <a href="change-password.html">Change Password</a>
+        <button class="dark-toggle" onclick="toggleDarkMode()">
+    Toggle Dark Mode
+</button>
+
+        <a href="#" onclick="logout()">Logout</a>
+
+    </aside>
+
+
+    <main class="main-content">
+
+        <h1>Register New User</h1>
+
+        <p>
+            Create login accounts for staff and send their login details by email.
+        </p>
+
+
+        <div class="form-section">
+
+            <h2>User Account Details</h2>
+
+            <form id="registerUserForm">
+
+                <label>Full Name</label>
+                <input
+                    type="text"
+                    id="full_name"
+                    placeholder="e.g. John Doe"
+                    required
+                >
+
+                <label>Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="e.g. staff@example.com"
+                    required
+                >
+
+                <label>Password</label>
+                <input
+                    type="text"
+                    id="password"
+                    placeholder="e.g. staff123"
+                    required
+                >
+
+                <label>Role</label>
+                <select id="role" required>
+                    <option value="">Select role</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Depot Manager">Depot Manager</option>
+                    <option value="Station Manager">Station Manager</option>
+                    <option value="Cashier">Cashier</option>
+                    <option value="Driver">Driver</option>
+                    <option value="Pump Attendant">Pump Attendant</option>
+                </select>
+
+                <button type="submit">
+                    Register User
+                </button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+</div>
+<script src="../js/sidebar.js"></script>
+<script src="../js/darkMode.js"></script>
+<script src="../js/api.js"></script>
+<script src="../js/registerUser.js"></script>
+<script src="../js/logout.js"></script>
+
+</body>
+
+</html>

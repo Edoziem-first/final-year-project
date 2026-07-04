@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Notifications</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/authCheck.js"></script>
+    <script src="../js/roleCheck.js"></script>
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar"></aside>
+
+    <main class="main-content">
+
+        <h1>Notifications</h1>
+
+        <p>
+            View system alerts, low stock warnings, and delivery updates.
+        </p>
+
+        <div class="table-section">
+
+            <h2>Notification History</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Message</th>
+                        <th>Type</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+
+                <tbody id="notificationsTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="../js/api.js"></script>
+<script src="../js/notifications.js"></script>
+<script src="../js/sidebar.js"></script>
+<script src="../js/logout.js"></script>
+<script src="../js/darkMode.js"></script>
+
+</body>
+
+</html>
